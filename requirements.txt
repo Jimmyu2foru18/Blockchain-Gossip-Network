@@ -1,0 +1,19 @@
+# Core dependencies
+python-dateutil>=2.8.2
+requests>=2.28.0
+
+# Cryptography
+cryptography>=38.0.0
+
+# Networking
+socket.io>=0.0.0
+
+# Data serialization
+json5>=0.9.10
+
+# Visualization
+webbrowser>=0.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
