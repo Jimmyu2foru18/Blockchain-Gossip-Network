@@ -20,34 +20,34 @@ The Blockchain Gossip Network is a distributed system where nodes communicate us
 ```
 Blockchain Gossip Network/
 ├── src/
-│   ├── blockchain/         # Blockchain implementation
-│   │   ├── block.py        # Block structure and validation
-│   │   ├── chain.py        # Blockchain management
-│   │   ├── pow.py          # Proof-of-Work implementation
-│   │   └── transaction.py  # Transaction structure and validation
-│   ├── network/            # Network communication
-│   │   ├── gossip.py       # Gossip protocol implementation
-│   │   ├── message.py      # Network message structure
-│   │   └── transport.py    # TCP/UDP transport layer
-│   ├── node/               # Node implementation
-│   │   ├── config.py       # Node configuration
-│   │   ├── node.py         # Main node class
-│   │   └── peer_manager.py # Peer discovery and management
-│   ├── utils/              # Utility functions
-│   │   ├── crypto.py       # Cryptographic utilities
-│   │   └── logger.py       # Logging utilities
-│   ├── visualization/      # Visualization tools
-│   │   ├── blockchain_visualizer.py  # Blockchain visualization
-│   │   └── network_visualizer.py     # Network visualization
-│   └── main.py             # Main entry point
-├── tests/                  # Test suite
-│   └── test_basic.py       # Basic functionality tests
-├── data/                   # Data storage (created at runtime)
-├── requirements.txt        # Project dependencies
-├── run_node.py             # Script to run a single node
-├── run_network.py          # Script to run multiple nodes
-├── README.md               # Project documentation
-└── project_proposal.md     # Project proposal
+│   ├── blockchain/     
+│   │   ├── block.py        
+│   │   ├── chain.py      
+│   │   ├── pow.py        
+│   │   └── transaction.py 
+│   ├── network/          
+│   │   ├── gossip.py     
+│   │   ├── message.py   
+│   │   └── transport.py    
+│   ├── node/            
+│   │   ├── config.py    
+│   │   ├── node.py  
+│   │   └── peer_manager.py 
+│   ├── utils/          
+│   │   ├── crypto.py   
+│   │   └── logger.py    
+│   ├── visualization/   
+│   │   ├── blockchain_visualizer.py 
+│   │   └── network_visualizer.py  
+│   └── main.py     
+├── tests/             
+│   └── test_basic.py    
+├── data/               
+├── requirements.txt   
+├── run_node.py      
+├── run_network.py    
+├── README.md  
+└── project_proposal.md  
 ```
 
 ## Installation
@@ -150,16 +150,4 @@ The network transport layer supports both TCP and UDP:
 - **TCP**: Used for reliable communication of transactions and blocks
 - **UDP**: Used for peer discovery and network health checks
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+---
